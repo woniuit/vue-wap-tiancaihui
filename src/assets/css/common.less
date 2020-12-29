@@ -1,0 +1,50 @@
+/* 公用的CSS */
+@navactive : #00BBD3;
+@commonbg : #ffffff;
+@cardbg : #FCFCFC;
+@width : 100%;
+
+// 水平居中
+.align_center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// 我的页面下面的菜单
+.mine_menu_common_box() {
+  margin-top: 20px;
+  width: @width;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 0 50px;
+}
+
+.mine_menu_common_box_list() {
+  height: 114px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mine_menu_common_listlf() {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 500;
+  color: #111111;
+
+  img {
+    margin-right: 40px;
+  }
+}
+.mine_menu_common_listrt() {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 500;
+  color: #999999;
+  img {
+    margin-left: 20px;
+  }
+}
